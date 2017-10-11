@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+        android:id="@+id/edit_city"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:hint="Enter City (i.e.,Charlotte)"/>
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:hint="Enter Country (i.e., US)"/>
+
+</LinearLayout>

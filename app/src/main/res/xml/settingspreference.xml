@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListPreference
+    android:key="TEMP_FORMAT"
+    android:title="Temparature Unit"
+    android:summary="Choose between Celsius and Fahrenheit"
+    android:defaultValue="Celsius"
+    android:entries="@array/valuesformats"
+    android:entryValues="@array/valuesformats"
+    android:dependency="TEMP_FORMAT"/>
+   <com.example.bhanu.homework08.CustomDialogPreference
+       android:title="Current City"
+       android:positiveButtonText="Set"
+       android:negativeButtonText="Cancel"
+       android:dialogLayout="@layout/dialoglayoutsettings"
+       android:summary="Change Current City"
+   />
+
+</PreferenceScreen>
